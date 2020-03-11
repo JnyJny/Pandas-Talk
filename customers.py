@@ -1,4 +1,6 @@
-"""
+"""generate fake order data
+
+
 """
 
 from faker import Faker
@@ -14,8 +16,8 @@ class Provider(misc.Provider, date_time.Provider):
 
     def ship_date(self) -> str:
         if self.random_int(min=0, max=1):
-            return self.future_date()
-        return "0"
+            return self.future_date(end_date="+90d")
+        return ""
 
     def inventory_number(self) -> str:
         return self.bothify("??##-??#").upper()
@@ -28,6 +30,12 @@ class Provider(misc.Provider, date_time.Provider):
 
 
 def csv_data(n_customers: int = 10) -> str:
+    """Returns a CSV formatted string of fake customer order data.
+    
+    :param int n_customers:
+    :return: str
+    """
+    Faker.seed(n_customers)
     fake = Faker()
     fake.add_provider(Provider)
     headers = [
