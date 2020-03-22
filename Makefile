@@ -7,7 +7,7 @@ VENV= .venv
 PIP=  $(PYTHON3) -m pip
 UPDATE_PIP= $(PIP) install -U pip
 INSTALL_REQUIREMENTS= $(PIP) install -Ur requirements.txt
-ACTIVATE= . $(VENV)/bin/activate
+ACTIVATE_VENV= . $(VENV)/bin/activate
 LOG= jupyter.log
 
 all:
@@ -23,10 +23,10 @@ $(VENV):
 	$(PYTHON3) -m venv --prompt Pandas $(VENV)
 
 install: $(VENV)
-	$(ACTIVATE) && $(UPDATE_PIP) && $(INSTALL_REQUIREMENTS)
+	$(ACTIVATE_VENV) && $(UPDATE_PIP) && $(INSTALL_REQUIREMENTS)
 
 start:
-	$(ACTIVATE) && jupyter notebook $(NOTEBOOK) >& $(LOG)
+	$(ACTIVATE_VENV) && jupyter notebook $(NOTEBOOK) >& $(LOG)
 
 readme: readme.html
 
