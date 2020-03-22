@@ -14,7 +14,7 @@ all:
 	@echo
 	@echo '-- Pandas Talk Makefile Targets --'
 	@echo
-	@echo 'install - Install Notebook Dependencies '
+	@echo 'install - Install Jupyter Notebook into a VENV '
 	@echo 'start   - Start the Jupyter Notebook Server.'
 	@echo
 	@echo '<EOM>'
@@ -25,7 +25,7 @@ $(VENV):
 install: $(VENV)
 	$(ACTIVATE_VENV) && $(UPDATE_PIP) && $(INSTALL_REQUIREMENTS)
 
-start:
+start: install
 	$(ACTIVATE_VENV) && jupyter notebook $(NOTEBOOK) >& $(LOG)
 
 readme: readme.html

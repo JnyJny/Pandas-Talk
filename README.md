@@ -25,16 +25,11 @@ You will need to have these software tools installed to get started:
    $ git clone https://github.com/JnyJny/Pandas-Talk.git
    ```
    
-2. Setup and Install Jupyter Notebook
+2. Install and Start Jupyter Notebook
    ```bash
    $ cd Pandas-Talk
-   $ make install
-   ```
-
-3. Start the Jupyter Notebook
-```bash
    $ make start
-```
+   ```
 
 Your web browser should now display the 'Customers' Jupyter Notebook
 page which has commentary woven thru the interactive code.  If this is
