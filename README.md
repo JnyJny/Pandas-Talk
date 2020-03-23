@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customer.ipynb)
+
 # A Whirlwind Tour of Pandas 
 
 From [pandas.pydata.org](0):
