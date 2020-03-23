@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customer.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customers.ipynb)
 
 # A Whirlwind Tour of Pandas 
 
