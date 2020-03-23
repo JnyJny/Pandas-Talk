@@ -1,4 +1,4 @@
-[![Binder](4)](3)
+[![Binder](https://mybinder.org/badge_logo.svg)](3)
 
 # A Whirlwind Tour of Pandas 
 
@@ -46,4 +46,3 @@ the [Notebook UI Overview](2) before going much further.
 [1]: https://jupyter.org
 [2]: https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb#Overview-of-the-Notebook-UI
 [3]: https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customers.ipynb
-[4]: https://mybinder.org/badge_logo.svg
