@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customers.ipynb)
+[![Binder](4)](3)
 
 # A Whirlwind Tour of Pandas 
 
@@ -13,12 +13,15 @@ way to work with code and data in an interactive manner. Specifically,
 this notebook will show how to use `pandas` to explore and manipulate
 a set of fictitious customer orders.
 
+You can install it locally or click the 'launch binder' button at the
+top of the page to launch an interactive Jupyter notebook automatically!
+
 ## How To Use this Repository
 
 You will need to have these software tools installed to get started:
 **python3**, **git**, **make** and a web brower.
 
-### Getting Started.
+### Getting Started .
 
 0. Start a web browser (Firefox, Chrome, Mozilla, Safari, etc)
 
@@ -42,3 +45,5 @@ the [Notebook UI Overview](2) before going much further.
 [0]: https://pandas.pydata.org
 [1]: https://jupyter.org
 [2]: https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb#Overview-of-the-Notebook-UI
+[3]: https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customers.ipynb
+[4]: https://mybinder.org/badge_logo.svg
