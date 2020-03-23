@@ -13,8 +13,7 @@ way to work with code and data in an interactive manner. Specifically,
 this notebook will show how to use `pandas` to explore and manipulate
 a set of fictitious customer orders.
 
-You can install it locally or click the 'launch binder' button at the
-top of the page to launch an interactive Jupyter notebook automatically!
+You can install it locally or click [![Binder](https://mybinder.org/badge_logo.svg)](3) to launch an interactive Jupyter notebook automatically right now!
 
 ## How To Use this Repository
 
