@@ -13,9 +13,8 @@ way to work with code and data in an interactive manner. Specifically,
 this notebook will show how to use `pandas` to explore and manipulate
 a set of fictitious customer orders.
 
-You can install it locally or click
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customers.ipynb)
-to launch an interactive Jupyter notebook automatically right now!
+You can install it locally or 
+[launch an interactive Jupyter notebook](https://mybinder.org/v2/gh/JnyJny/Pandas-Talk/master?filepath=Customers.ipynb) automatically right now!
 
 ## How To Use this Repository
 
