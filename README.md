@@ -18,7 +18,7 @@ You can install it locally or
 
 ## How To Use this Repository
 
-You will need to have these software tools installed to get started:
+You will need these software tools installed to get started:
 **python3**, **git**, **make** and a web brower.
 
 ### Getting Started .
@@ -45,4 +45,4 @@ the [Notebook UI Overview](2) before going much further.
 [0]: https://pandas.pydata.org
 [1]: https://jupyter.org
 [2]: https://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb#Overview-of-the-Notebook-UI
-[3]: 
+
